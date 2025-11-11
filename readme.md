@@ -52,6 +52,9 @@ Shows how many distinct characters each node interacts with.
 - The **King’s Landing (blue)** cluster is the densest and most active.
 - **Daenerys’s (orange)** cluster is internally strong but globally isolated.
 
+### Degree Centrality
+![Degree Centrality](figures/degree.png)
+
 ---
 
 ### 2. Community-Colored **Weighted Betweenness**
@@ -60,6 +63,9 @@ Highlights brokers connecting otherwise separate storylines.
 - **Tyrion** and **Sansa** act as key intermediaries across factions.
 - **Jon Snow** connects the Night’s Watch to the broader realm.
 - **Daenerys** remains isolated — strong ties within her group, few cross-links.
+
+### Weighted Betweenness
+![Weighted Betweenness](figures/betweenness.png)
 
 ---
 
@@ -70,12 +76,18 @@ Reveals influence through connections with other influential nodes.
 - **Jon** drops despite high degree — his connections are local and less prestigious.
 - **Daenerys** holds moderate EC within her own isolated cluster.
 
+### Eigenvector Centrality
+![Eigenvector Centrality](figures/eigen.png)
+
 ---
 
 ### 4. **Edge Betweenness Centrality**
 Visualizes key bridging relationships between communities (red edges):
 - **Jon ↔ Samwell**, **Robb ↔ Tyrion**, and **Robert ↔ Daenerys** are high-betweenness ties.
 - Removing these edges would fragment the network most severely.
+
+### Edge Betweenness
+![Edge Betweenness](figures/edgeBetweenness.png)
 
 ---
 
