@@ -1,0 +1,17 @@
+# Core environment
+python>=3.9,<3.12
+
+# Graph/network analysis
+networkx>=3.2
+python-louvain>=0.16
+
+# Data handling
+pandas>=2.1
+numpy>=1.26
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+
+# Optional (for community visualization color palettes)
+cycler>=0.12
